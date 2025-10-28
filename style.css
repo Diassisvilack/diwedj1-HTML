@@ -1,4 +1,27 @@
-h1 {
+h1,
+h2 {
   margin: 50px;
   text-align: center;
+}
+
+p {
+  margin: 20;
+  padding: 20px;
+  border: 1px solid blueviolet;
+  width: 50;
+}
+.text {
+  line-height: 50px;
+  text-indent: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background-color: blueviolet;
+  color: #ffffff;
+}
+.spam {
+  color: coral;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: lowercase;
+  text-decoration: underline;
 }
