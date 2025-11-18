@@ -1,25 +1,44 @@
-h1 , h2{
-    margin: 50px auto;
+
+h1{
     text-align: center;
 }
-p{
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid blueviolet;
-    width: 50%;
+
+.container {
+    background-color: rgba(100, 0, 0, 0.2);
+    display: flex;
+
 }
-.text {
-    line-height: 50px;
-    text-indent: 50px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    background-color: blueviolet;
+.container02 {
+background-color: rgba(0, 100, 110, 0.3);
+height: 450px;
+margin-top: 20px;
+display: flex;
+}
+.item {
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
-}
-span{
-    color: coral;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
     font-weight: bold;
-    font-size: 32px;
-    text-transform: lowercase;
-    text-decoration: underline;
+    width: 200px;
+
+}
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.green {
+    background-color: rgba(0,255, 0, 0.5);
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.item1{
+
+}
+.item2{
+
+}
+.item4{
+
 }
