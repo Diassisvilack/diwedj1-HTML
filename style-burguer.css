@@ -1,0 +1,162 @@
+/*
+ * Tema: Dark Mode (Modo Escuro) com detalhes em Dourado/Bronze (#d4af37).
+ * Objetivo: Estilizar um menu ou catálogo de itens (ex: hambúrgueres).
+ */
+
+/* ======================================= */
+/* ESTILOS GLOBAIS (BODY) */
+/* ======================================= */
+
+body {
+  /* Define o fundo principal como preto muito escuro */
+  background-color: #0a0a0a;
+  /* Define a cor do texto padrão como dourado/bronze */
+  color: #d4af37;
+  /* Define a fonte do texto */
+  font-family: Arial, sans-serif;
+  /* Centraliza todo o conteúdo de texto */
+  text-align: center;
+  /* Remove as margens padrão do navegador */
+  margin: 0;
+}
+
+/* ======================================= */
+/* DIV PRINCIPAL (CONTAINER) */
+/* ======================================= */
+
+/* Div principal que envolve todo o conteúdo, demonstrando o Box Model */
+.container {
+  /* Fundo ligeiramente mais claro que o body */
+  background-color: #111;
+  /* Margem superior/inferior de 40px e centraliza o bloco horizontalmente */
+  margin: 40px auto;
+  /* Espaçamento interno (preenchimento) de 30px */
+  padding: 30px;
+  /* Largura de 85% da tela */
+  width: 85%;
+  /* Borda dourada de 2px */
+  border: 2px solid #d4af37;
+  /* Cantos arredondados */
+  border-radius: 10px;
+}
+
+/* ======================================= */
+/* MENU DE NAVEGAÇÃO */
+/* ======================================= */
+
+/* Aplica estilos aos links (a) dentro da classe .menu */
+.menu a {
+  /* Cor do link: Dourado */
+  color: #d4af37;
+  /* Remove o sublinhado padrão do link */
+  text-decoration: none;
+  /* Texto em negrito */
+  font-weight: bold;
+}
+
+/* Efeito ao passar o mouse sobre o link */
+.menu a:hover {
+  /* Muda a cor do link para branco */
+  color: #fff;
+}
+
+/* ======================================= */
+/* ITENS DO CATÁLOGO (PRODUTOS) */
+/* ======================================= */
+
+/* Estilo para cada item individual (ex: cada hambúrguer) */
+.item {
+  /* Fundo preto escuro */
+  background-color: #1a1a1a;
+  /* Borda dourada de 1px */
+  border: 1px solid #d4af37;
+  /* Cantos arredondados */
+  border-radius: 10px;
+  /* Margem superior/inferior e centralização horizontal */
+  margin: 20px auto;
+  /* Espaçamento interno */
+  padding: 15px;
+  /* Largura fixa do box do item */
+  width: 350px;
+}
+
+/* Estilo para as imagens dentro dos itens */
+.item img {
+  /* Borda dourada de 3px, destacando a imagem */
+  border: 3px solid #d4af37;
+  /* Cantos arredondados na imagem */
+  border-radius: 10px;
+  /* Espaço abaixo da imagem */
+  margin-bottom: 10px;
+}
+
+/* ======================================= */
+/* CAIXA DE OBSERVAÇÕES */
+/* ======================================= */
+
+/* Estilo para a caixa de notas ou informações adicionais */
+.observacoes {
+  /* Espaço acima da caixa */
+  margin-top: 30px;
+  /* Borda dourada de 1px */
+  border: 1px solid #d4af37;
+  /* Cantos arredondados */
+  border-radius: 10px;
+  /* Espaçamento interno */
+  padding: 10px;
+  /* Fundo preto escuro */
+  background-color: #1a1a1a;
+}
+
+/* ======================================= */
+/* CAMPOS DE FORMULÁRIO (INPUTS/TEXTAREA) */
+/* ======================================= */
+
+/* Estilo para inputs de texto e áreas de texto */
+input,
+textarea {
+  /* Fundo preto muito escuro (igual ao body) */
+  background-color: #0a0a0a;
+  /* Borda dourada */
+  border: 1px solid #d4af37;
+  /* Cor do texto digitado: Dourado */
+  color: #d4af37;
+  /* Cantos levemente arredondados */
+  border-radius: 5px;
+  /* Espaçamento interno */
+  padding: 5px;
+}
+
+/* ======================================= */
+/* BOTÃO DE AÇÃO */
+/* ======================================= */
+
+/* Estilo para o botão principal (Call to Action) */
+button {
+  /* Fundo Dourado (inverte as cores para destaque) */
+  background-color: #d4af37;
+  /* Cor do texto: Preto */
+  color: #0a0a0a;
+  /* Texto em negrito */
+  font-weight: bold;
+  /* Remove a borda padrão */
+  border: none;
+  /* Cantos arredondados */
+  border-radius: 8px;
+  /* Espaçamento interno grande */
+  padding: 10px 20px;
+  /* Espaço acima do botão */
+  margin-top: 15px;
+  /* Muda o cursor para indicar que é clicável */
+  cursor: pointer;
+  /* Define uma transição suave para o efeito hover */
+  transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+  /* Muda o fundo para um dourado mais escuro/sutil */
+  background-color: #b7950b;
+  /* Muda o texto para branco */
+  color: white;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nossos Hambúrgueres</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- SEU CSS -->
+    <link rel="stylesheet" href="style-burguer.css">
+</head>
+
+<body class="bg-dark text-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-warning">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="prova.html">Hamburgueria ETC</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="prova.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active text-warning" href="prova2.html">Hambúrgueres</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="prova3.html">Bebidas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prova4.html">Localização</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prova5.html">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container py-5">
+
+        <h2 class="text-center mb-4 text-warning">Nossos Hambúrgueres</h2>
+
+        <form action="prova3.html" method="get">
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-black text-light border-warning h-100">
+                        <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg"
+                            class="card-img-top border-bottom border-warning" alt="ETC Clássico">
+                        <div class="card-body">
+                            <h3 class="card-title text-warning">ETC Clássico</h3>
+                            <p>Pão brioche, hambúrguer de 150g, cheddar e molho especial.</p>
+                            <p><strong>Preço: R$ 25,00</strong></p>
+                            <label>Quantidade:
+                                <input type="number" name="etc_classico" min="0" value="0" class="form-control mt-2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-black text-light border-warning h-100">
+                        <img src="https://blog.biglar.com.br/wp-content/uploads/2024/08/iStock-1398630614.jpg"
+                            class="card-img-top border-bottom border-warning" alt="Baconzudo Monstro">
+                        <div class="card-body">
+                            <h3 class="card-title text-warning">Baconzudo Monstro</h3>
+                            <p>Pão australiano, dois hambúrgueres de 180g, dobro de queijo e bacon.</p>
+                            <p><strong>Preço: R$ 35,00</strong></p>
+                            <label>Quantidade:
+                                <input type="number" name="baconzudo_monstro" min="0" value="0"
+                                    class="form-control mt-2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-black text-light border-warning h-100">
+                        <img src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2022/05/03124339/hamburguer-8.jpg"
+                            class="card-img-top border-bottom border-warning" alt="Salada Fresh">
+                        <div class="card-body">
+                            <h3 class="card-title text-warning">Salada Fresh</h3>
+                            <p>Pão com gergelim, hambúrguer 150g, queijo branco, alface e tomate.</p>
+                            <p><strong>Preço: R$ 28,00</strong></p>
+                            <label>Quantidade:
+                                <input type="number" name="salada_fresh" min="0" value="0" class="form-control mt-2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-black text-light border-warning h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kP3bL7aCMMViCQKCK9Szoe0VV3kNNtbr7A&s"
+                            class="card-img-top border-bottom border-warning" alt="Frangolino Crocante">
+                        <div class="card-body">
+                            <h3 class="card-title text-warning">Frangolino Crocante</h3>
+                            <p>Pão brioche, filé de frango empanado super crocante e alface.</p>
+                            <p><strong>Preço: R$ 27,00</strong></p>
+                            <label>Quantidade:
+                                <input type="number" name="frangolino_crocante" min="0" value="0"
+                                    class="form-control mt-2">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTÃO PRÓXIMA PÁGINA -->
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-warning fw-bold px-4 py-2">
+                    Próxima Página →
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
